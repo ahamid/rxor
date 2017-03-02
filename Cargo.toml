@@ -3,4 +3,11 @@ name = "rxor"
 version = "0.1.0"
 authors = ["Aaron Hamid <aaron.hamid@gmail.com>"]
 
+[profile.release]
+opt-level = 3
+lto = true
+debug = false
+rpath = false
+debug-assertions = false
+
 [dependencies]
